@@ -54,16 +54,14 @@ def create_turtle():
 
 def throw_turtle(turtle,angulo,power):
   
-    # parabola formula:
-    #   x coordinate: speed(in here, that is power) * cos(angle)*time
-    #   y coordinate: speed*sin(angle)*time - (gravity speed * time**2)/2
+
     for time in range(1, 25):
         x = power * math.cos(math.radians(angulo)) * time + origin_x
         y = power * math.sin(math.radians(angulo)) * time - (((time ** 2) * G) / 2) + origin_y
         
         turtle.goto(x, y)
         turtle.stamp()
-      # this is for testing
+
 
 
 
