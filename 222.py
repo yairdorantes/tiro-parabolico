@@ -13,9 +13,9 @@ origin_y = -180
 #esta funcion es para guardar multimedia, esta si la saque de internet jaj
 #homework = turtle.RawTurtle(canvas)
 def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
+
     try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
+
         base_path = sys._MEIPASS
     except Exception:
         base_path = os.path.abspath(".")
