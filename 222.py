@@ -10,7 +10,7 @@ origin_x = -780
 origin_y = -180
 
 
-
+#esta funcion es para guardar multimedia, esta si la saque de internet jaj
 #homework = turtle.RawTurtle(canvas)
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
